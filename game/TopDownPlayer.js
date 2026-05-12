@@ -10,6 +10,8 @@
 var SPEED = 5;   // world units per second
 
 onStart(() => {
+    setScaleX(0.2);
+  setScaleY(0.2);
   setTag("player");
   log("Top-Down Player ready — WASD or arrows to move, mouse to aim");
 
